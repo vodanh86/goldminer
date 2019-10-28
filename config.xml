@@ -9,6 +9,9 @@ version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.
         PhoneGap Team
     </author>
     <content src="index.html" />
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="28" />
     <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
